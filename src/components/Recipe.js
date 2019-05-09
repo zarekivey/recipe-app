@@ -28,7 +28,7 @@ class Recipe extends React.Component {
                         Publisher: <span>{ recipe.publisher }</span>
                     </h4>
                     <p className="active-recipe__website">Visit:
-                        <span><a href={recipe.publisher_url}>{recipe.publisher_url}</a></span>
+                        <span><a href={recipe.source_url}>{recipe.source_url}</a></span>
                     </p>
                     <Link to="/" className="active-recipe__button">Go Home</Link>
                 </div>
